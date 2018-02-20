@@ -7,10 +7,12 @@ To test the algorithm, we'll be using the following four formulas
 * ![Formula 2][formula2]
 * ![Formula 3][formula3]
 * ![Formula 4][formula4]
+
 There are three solutions for the first one:
 * A = false, B = false, C = true
 * A = false, B = true, C = false
 * A = false, B = true, C = true
+
 We'd like the output of the algorithm to be:
 ```javascript
 ["001", "010", "011"]
