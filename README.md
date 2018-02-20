@@ -31,6 +31,8 @@ we'll get the following output
 
 ![Output of formula 2][formula2solution]
 
+In the pictures, there is a typo. It reads "formumla" instead of formula. This has been fixed.
+
 ## Installation
 You must first transpile the .ts files to .js, using ```tsc```. Afterwards you can run the project using ```node runner.js```
 
