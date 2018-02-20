@@ -23,6 +23,10 @@ Given the formula ![Formula 1][formula1].
 We'll get the following output
 ![Output of formula 1][formula1solution]
 
+Given the formula ![Formula 2][formula2].
+We'll get the following output
+![Output of formula 2][formula2solution]
+
 ## Installation
 You must first transpile the .ts files to .js, using ```tsc```. Afterwards you can run the project using ```node runner.js```
 
@@ -31,3 +35,4 @@ You must first transpile the .ts files to .js, using ```tsc```. Afterwards you c
 [formula3]: https://wikimedia.org/api/rest_v1/media/math/render/svg/9b9c9c90857c12727201dd9e47a4e7c8658fdbc5 "Formula 3"
 [formula4]: https://wikimedia.org/api/rest_v1/media/math/render/svg/74954195333a8593163b93a9688695b8dc74da55 "Formula 4"
 [formula1solution]: https://i.gyazo.com/bcab175f21d9af7f7a006c00fe80f7a8.png
+[formula2solution]: https://i.gyazo.com/1c58e3c4b972f4bd31ea3b00fbb731d1.png
