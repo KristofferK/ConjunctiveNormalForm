@@ -21,10 +21,14 @@ We'd like the output of the algorithm to be:
 ## Actual output
 Given the formula ![Formula 1][formula1].
 We'll get the following output
+
 ![Output of formula 1][formula1solution]
+
+
 
 Given the formula ![Formula 2][formula2].
 We'll get the following output
+
 ![Output of formula 2][formula2solution]
 
 ## Installation
