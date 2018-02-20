@@ -7,7 +7,7 @@ const condition3 = (A: boolean) => (B: boolean) => A || B;
 const condition4 = (A: boolean) => (B: boolean) => A && B;
 
 const printConditionAndSolutions = (solver: CNFSolver) => (variablesUsed: number, condition: any) => {
-  console.log('Formumla: ', condition.toString());
+  console.log('Formula: ', condition.toString());
   console.log('Variables used: ', variablesUsed);
   console.log('Solutions: ', solver.getSolutionsThatfulfillCondition(variablesUsed, condition));
   console.log('---------');
