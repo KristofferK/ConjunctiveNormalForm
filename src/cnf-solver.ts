@@ -1,7 +1,12 @@
 export class CNFSolver {
-  getSolutionsThatfulfillCondition(bits: number, conditionCallback: any) {
+  getSatisfiableSolutions(bits: number, conditionCallback: any) {
     return this.getSolutionCandidates(bits)
       .filter(solution => this.performConditionCallback(conditionCallback, solution));
+  }
+  
+  getUnsatisfiableSolutions(bits: number, conditionCallback: any) {
+    return this.getSolutionCandidates(bits)
+      .filter(solution => !this.performConditionCallback(conditionCallback, solution));
   }
 
   private getSolutionCandidates(bits: number) {

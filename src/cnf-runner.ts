@@ -9,8 +9,9 @@ const condition4 = (A: boolean) => (B: boolean) => A && B;
 const printConditionAndSolutions = (solver: CNFSolver) => (variablesUsed: number, condition: any) => {
   console.log('Formula: ', condition.toString());
   console.log('Variables used: ', variablesUsed);
-  console.log('Possible solutions: ' + Math.pow(2, variablesUsed));
-  console.log('Satisfiable solutions: ', solver.getSolutionsThatfulfillCondition(variablesUsed, condition));
+  console.log(`Possible solutions: 2^${variablesUsed} = ${Math.pow(2, variablesUsed)}`);
+  console.log('Satisfiable solutions: ', solver.getSatisfiableSolutions(variablesUsed, condition));
+  console.log('Unsatisfiable solutions: ', solver.getUnsatisfiableSolutions(variablesUsed, condition));
   console.log('---------');
 }
 
