@@ -1,5 +1,5 @@
 # ConjunctiveNormalForm
-Determines which boolean-values must be given to a formula to make it pass.
+Determines which boolean-values must be given to a formula to make it satisfiable.
 
 ## Example
 To test the algorithm, we'll be using the following four formulas
